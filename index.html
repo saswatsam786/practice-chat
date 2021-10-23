@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Practice Chat App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="messageContainer"></div>
+    </div>
+    <form id="sendMessage">
+      <input type="text" name="input" id="msgInput" />
+      <button type="submit" id="btn">Send</button>
+    </form>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+  </body>
+</html>

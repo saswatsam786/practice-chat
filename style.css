@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+  min-height: 80vh;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  justify-content: flex-start;
+}
+
+.messageContainer div {
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+.messageContainer div:nth-child(2n) {
+  background-color: white;
+}
+
+#sendMessage {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+#btn {
+  margin-left: 10px;
+  padding: 5px;
+}
