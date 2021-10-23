@@ -1,4 +1,4 @@
-const socket = io("http://localhost:3000", { transports: ["websocket"] });
+const socket = io("/", { transports: ["websocket"] });
 
 const form = document.querySelector("#sendMessage");
 const container = document.querySelector(".messageContainer");
