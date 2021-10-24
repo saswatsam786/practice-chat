@@ -1,4 +1,6 @@
-const socket = io("/", { transports: ["websocket"] });
+const socket = io(" https://pratice-chat-app.herokuapp.com/", {
+  transports: ["websocket"],
+});
 
 const form = document.querySelector("#sendMessage");
 const container = document.querySelector(".messageContainer");
