@@ -1,4 +1,4 @@
-const socket = io(" https://pratice-chat-app.herokuapp.com/", {
+const socket = io("https://salty-thicket-48929.herokuapp.com/", {
   transports: ["websocket"],
 });
 
